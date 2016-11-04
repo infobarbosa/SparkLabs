@@ -3,7 +3,14 @@ Laboratórios para testes de conceitos, técnicas e arquiteturas big data.
 
 ##Ambiente
 O projeto assume um cluster Hadoop de 4 nodes, um cluster Spark de 4 nodes e um cluster Cassandra de 3 nodes.
-Os clusters estão baseados em Ubuntu 14.04 LTS.
+
+Os clusters estão baseados em Ubuntu 14.04 LTS com firewall desabilitado.
+
+Para lembrar seguem os comandos para verificar o status do firewall no Ubuntu e desabilitá-lo:
+
+	sudo ufw status verbose
+	sudo ufw disable
+
 ###Hadoop
 Utilizada a versão 2.7.2 com JVM 1.7.0_79 instalada em 4 máquinas virtuais rodando em VirtualBox 5.0.28 com configuração de 2 núcleos de processamento e 1.5Gb de RAM cada.
 
@@ -152,4 +159,32 @@ Como resultado será gerado um pacote como esse: target/scala-2.11/bolsa-familia
 	  --class com.infobarbosa.spark.BolsaFamiliaCarregaCassandra \
 	  target/scala-2.11/bolsa-familia-total-cidades-ordenado_2.11-1.0-SNAPSHOT.jar \
 	  "hdfs://hadoop-master:9000/data/in/teste.csv"
+
+##Alguns comandos importantes (seguir na ordem apresentada)
+
+###Subir Hadoop (nessa ordem)
+
+	$HADOOP_HOME/sbin/start-dfs.sh
+	$HADOOP_HOME/sbin/start-yarn.sh
+
+###Baixar Hadoop
+
+	$HADOOP_HOME/sbin/stop-yarn.sh
+	$HADOOP_HOME/sbin/stop-dfs.sh
+
+###Subir Spark
+
+	$SPARK_HOME/sbin/start-all.sh
+
+###Baixar Spark
+
+	$SPARK_HOME/sbin/stop-all.sh
+
+###Subir Cassandra
+
+	$CASSANDRA_HOME/bin/cassandra
+
+###Baixar Cassandra
+
+	kill -9 # :)
 
