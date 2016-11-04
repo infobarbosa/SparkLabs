@@ -5,14 +5,10 @@ Laboratórios para testes de conceitos, técnicas e arquiteturas big data.
 O projeto assume um cluster Hadoop de 4 nodes, um cluster Spark de 4 nodes e um cluster Cassandra de 3 nodes.
 Os clusters estão baseados em Ubuntu 14.04 LTS.
 ###Hadoop
-4 máquinas virtuais rodando em VirtualBox 5.0.28 com configuração de 2 núcleos de processamento e 1.5Gb de RAM cada.
-
-Utilizada a versão 2.7.2 com JVM 1.7.0_79
+Utilizada a versão 2.7.2 com JVM 1.7.0_79 instalada em 4 máquinas virtuais rodando em VirtualBox 5.0.28 com configuração de 2 núcleos de processamento e 1.5Gb de RAM cada.
 
 ###Spark
-Instalado nas máquinas do Hadoop.
-
-Utilizada a versão spark-2.0.1-bin-hadoop2.7.
+Instalado a versão spark-2.0.1-bin-hadoop2.7 nas máquinas do Hadoop.
 
 ###Cassandra
 3 máquinas virtuais rodando em VirtualBox 5.0.28 com configuração de 2 núcleos de processamento e 1.5Gb de RAM cada.
