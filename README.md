@@ -1,7 +1,7 @@
 # BigDataLabs
 Laboratórios para testes de conceitos, técnicas e arquiteturas big data.
 
-Para fins didáticos eu uso recorrentemente a base de pagamentos do bolsa família (é grande, gratuita e atualizada com frequência). A fonte é o [Portal da Transparência](http://www.portaldatransparencia.gov.br/downloads/mensal.asp?c=BolsaFamiliaFolhaPagamento) 
+Para fins didáticos eu uso recorrentemente a base de pagamentos do bolsa família (é grande, gratuita e atualizada com frequência). A fonte é o [Portal da Transparência](http://www.portaldatransparencia.gov.br/downloads/mensal.asp?c=BolsaFamiliaFolhaPagamento).
 
 Podemos usá-la tanto para teste de processamento quanto de ciência de dados e machine learning.
 
