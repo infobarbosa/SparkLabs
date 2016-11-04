@@ -1,6 +1,6 @@
 name := "big-data-labs"
 
-organization := "com.infobarbosa.spark"
+organization := "com.infobarbosa"
 
 version := "1.0-SNAPSHOT"
 
