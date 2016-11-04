@@ -162,7 +162,7 @@ Como resultado será gerado um pacote como esse: target/scala-2.11/bolsa-familia
 
 ##Alguns comandos importantes (seguir na ordem apresentada)
 
-###Subir Hadoop (nessa ordem)
+###Subir Hadoop
 
 	$HADOOP_HOME/sbin/start-dfs.sh
 	$HADOOP_HOME/sbin/start-yarn.sh
