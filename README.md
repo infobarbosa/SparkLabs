@@ -186,5 +186,5 @@ Como resultado será gerado um pacote como esse: target/scala-2.11/bolsa-familia
 
 ###Baixar Cassandra
 
-	kill -9 # :)
+	kill -9 [PID do Cassandra] # :)
 
