@@ -11,9 +11,7 @@ Utilizada a versão 2.7.2 com JVM 1.7.0_79 instalada em 4 máquinas virtuais rod
 Instalado a versão spark-2.0.1-bin-hadoop2.7 nas máquinas do Hadoop.
 
 ###Cassandra
-3 máquinas virtuais rodando em VirtualBox 5.0.28 com configuração de 2 núcleos de processamento e 1.5Gb de RAM cada.
-
-Utilizada a versão 3.5 com JVM 1.8.0_77
+Utilizada a versão 3.5 com JVM 1.8.0_77 instalada em 3 máquinas virtuais rodando em VirtualBox 5.0.28 com configuração de 2 núcleos de processamento e 1.0Gb de RAM cada.
 
 A seguir estão os comandos de criação do keyspace do bolsa família e a tabela onde estão os dados brutos dos arquivos:
 
