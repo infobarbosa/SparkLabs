@@ -14,7 +14,7 @@ Como resultado será gerado um pacote como esse: target/scala-2.11/bolsa-familia
 
 ###spark-submit
 
-spark-submit \
+    spark-submit \
 	  --master "spark://cassandra-lab-ubuntu-node1:7077" \
 	  --class "com.infobarbosa.spark.BolsaFamiliaTotalCidadesOrdenado" \
 	  target/scala-2.11/bolsa-familia-total-cidades-ordenado_2.11-1.0-SNAPSHOT.jar \
