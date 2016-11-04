@@ -66,7 +66,7 @@ Como resultado será gerado um pacote como esse: target/scala-2.11/bolsa-familia
 ###Uber Jar
 Durante o laboratório encontrei alguns tutoriais orientando colocar bibliotecas de terceiros (dependências) no diretório $SPARK_HOME/jars. Porém, na minha primeira tentativa o cluster parou e não subiu mais.
 
-Acredito que não apliquei a técnica (na melhor das hipóteses!) então segui por outro caminho recomendado, montar um "fat jar", e funcionou muito bem (leia mais sobre isso [aqui](https://github.com/sbt/sbt-assembly). Devo manter esse método até aprender como manejar bibliotecas de terceiros na instalação do spark.
+Acredito que não apliquei a técnica corretamente (na melhor das hipóteses!) então segui por outro caminho recomendado, montar um "fat jar", e funcionou muito bem (leia mais sobre isso [aqui](https://github.com/sbt/sbt-assembly). Devo manter esse método até aprender como manejar bibliotecas de terceiros na instalação do spark.
 
     sbt assembly
 
