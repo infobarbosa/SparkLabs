@@ -64,6 +64,9 @@ O hostname em cada VM (/etc/hostname):
 Como resultado será gerado um pacote como esse: target/scala-2.11/bolsa-familia-total-cidades-ordenado_2.11-1.0-SNAPSHOT.jar
 
 ###Uber Jar
+Durante o laboratório encontrei alguns tutoriais orientando colocar bibliotecas de terceiros (dependências) no diretório $SPARK_HOME/jars. Porém, na minha primeira tentativa o cluster parou e não subiu mais.
+
+Acredito que não apliquei a técnica (na melhor das hipóteses!) então segui por outro caminho recomendado, montar um "fat jar", e funcionou muito bem (leia mais sobre isso [aqui](https://github.com/sbt/sbt-assembly). Devo manter esse método até aprender como manejar bibliotecas de terceiros na instalação do spark.
 
     sbt assembly
 
