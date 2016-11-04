@@ -1,6 +1,14 @@
 # BigDataLabs
 Laboratórios para testes de conceitos, técnicas e arquiteturas big data.
 
+Para fins didáticos eu uso recorrentemente a base de pagamentos do bolsa família (é grande, gratuita e atualizada com frequência). A fonte é o [Portal da Transparência](http://www.portaldatransparencia.gov.br/downloads/mensal.asp?c=BolsaFamiliaFolhaPagamento) 
+
+Podemos usá-la tanto para teste de processamento quanto de ciência de dados e machine learning.
+
+Importante! Esse projeto é baseado na famosa técnica de aprendizado "run to see what a fuck happens".
+
+Bons estudos!
+
 ##Ambiente
 O projeto assume um cluster Hadoop de 4 nodes, um cluster Spark de 4 nodes e um cluster Cassandra de 3 nodes.
 
